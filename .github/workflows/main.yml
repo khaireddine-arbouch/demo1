@@ -19,7 +19,7 @@ jobs:
 
       - name: Add remote
         env:
-          HF: ${{ secrets.HF }}
+          HF: ${{ secrets.HG }}
         run: |
           git remote add space https://khaireddine-arbouch:$HF@huggingface.co/spaces/khaireddine-arbouch/demo1
 
